@@ -1,0 +1,212 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5c1d4dff-48a2-491d-a55e-d7f031e381c4")
+	(paper "A4")
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 144.78 105.41) (xy 163.83 105.41)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(uuid "72010c06-e51a-4d13-baf9-dcd164ff0124")
+	)
+	(polyline
+		(pts
+			(xy 163.83 11.43) (xy 163.83 198.12)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(uuid "7aa97038-535a-406e-99e5-a5cc5bdc0f8f")
+	)
+	(polyline
+		(pts
+			(xy 12.7 105.41) (xy 144.78 105.41)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(uuid "b884b78c-cd74-4e3b-9e32-37d5063712cf")
+	)
+	(sheet
+		(at 97.79 30.48)
+		(size 40.64 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "0ea93656-76e2-4de4-97dd-22aeb86e3663")
+		(property "Sheetname" "mcu_circuits"
+			(at 97.79 29.1334 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_circuits.kicad_sch"
+			(at 97.79 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "reactionwheel"
+				(path "/5c1d4dff-48a2-491d-a55e-d7f031e381c4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 64.77)
+		(size 50.8 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "384a6415-08b1-4b7c-bda4-f87d0ce6d324")
+		(property "Sheetname" "motor_controller"
+			(at 203.2 63.4234 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_controller.kicad_sch"
+			(at 203.2 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "reactionwheel"
+				(path "/5c1d4dff-48a2-491d-a55e-d7f031e381c4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 30.48)
+		(size 41.91 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "84fa2751-5662-4568-aa6b-adcbfac4194e")
+		(property "Sheetname" "mcu"
+			(at 29.21 29.1334 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_sch.kicad_sch"
+			(at 29.21 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "reactionwheel"
+				(path "/5c1d4dff-48a2-491d-a55e-d7f031e381c4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 125.73)
+		(size 67.31 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "d4e0aec4-a3cf-4314-a591-f8bb99b9913e")
+		(property "Sheetname" "drone_motor"
+			(at 46.99 124.3834 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "drone_motor.kicad_sch"
+			(at 46.99 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "reactionwheel"
+				(path "/5c1d4dff-48a2-491d-a55e-d7f031e381c4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "reactionwheel")(type "KiCad")(uri "${KIPRJMOD}/reactionwheel.pretty")(options "")(descr ""))
+)
